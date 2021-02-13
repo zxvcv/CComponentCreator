@@ -1,0 +1,44 @@
+{
+    "prefix_marker": "[[",
+    "sufix_marker": "]]",
+    "dirs": [
+        "{0}/docs",
+        "{0}/header",
+        "{0}/source",
+        "{0}/tests/mocs",
+        "{0}/tests/stubs"
+    ],
+
+    "markers": [
+        "COMPONENT_NAME",
+        "LICENSE_INFORMATIONS",
+        "COMPONENT_DESCRIPTION",
+        "COMPONENT_COMMENTS",
+        "COMPONENT_EXAMPLE",
+        "COMPONENT_DEFINE_NAME",
+        "COMPONENT_INCLUDES_H",
+        "COMPONENT_DEFINES_H",
+        "COMPONENT_EXTERNS_H",
+        "COMPONENT_DATA_TYPES_H",
+        "COMPONENT_INCLUDES_C",
+        "COMPONENT_DEFINES_C",
+        "COMPONENT_PRIVATE_DEFINITIONS",
+        "COMPONENT_PUBLIC_DEFINITIONS",
+        "COMPONENT_PUBLIC_DECLARATIONS"
+    ],
+    "f_markers": [
+        "FUNCTION_NAME",
+        "FUNCTION_PARAMETERS",
+        "FUNCTION_RETURN_VALUE",
+        "FUNCTION_PRECONDITIONS",
+        "FUNCTION_POSTCONDITIONS",
+        "FUNCTION_COMMENTS",
+        "FUNCTION_OTHERS"
+    ],
+    "fparam_markers": [
+        "FPARAM_DIRECTION",
+        "FPARAM_NAME",
+        "FPARAM_DESCRIPTION",
+        "FPARAM_WS"
+    ]
+}

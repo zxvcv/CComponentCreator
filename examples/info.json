@@ -1,0 +1,14 @@
+{
+    "COMPONENT_NAME": "FIFO_void",
+    "LICENSE_INFORMATIONS_FILE": "license_information.txt",
+    "COMPONENT_DESCRIPTION_FILE": "component_description.txt",
+    "COMPONENT_COMMENTS_FILE": "component_comments.txt",
+    "COMPONENT_EXAMPLE_FILE": "component_example.txt",
+    "COMPONENT_INCLUDES_H_FILE": "component_includes.txt",
+    "COMPONENT_DEFINES_H_FILE": "component_defines.txt",
+    "COMPONENT_EXTERNS_H_FILE": "component_externs.txt",
+    "COMPONENT_DATA_TYPES_H_FILE": "component_data_types.txt",
+    "COMPONENT_INCLUDES_C_FILE": "component_includes.txt",
+    "COMPONENT_DEFINES_C_FILE": "component_defines.txt",
+    "COMPONENT_PUBLIC_DEFINITIONS_FILE": "component_public_definitions.txt"
+}

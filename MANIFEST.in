@@ -1,0 +1,10 @@
+# Copyright (c) 2021 Paweł Piskorz
+# Licensed under the MIT License
+# See attached LICENSE file
+
+include README.rst
+
+graft src
+
+global-exclude .build .build.*
+global-exclude *.py[cod] __pycache__

@@ -1,0 +1,2 @@
+Std_Err fifo_create(Fifo** list)
+Std_Err fifo_push_C(Fifo_C* list, void* val, int valSize)
