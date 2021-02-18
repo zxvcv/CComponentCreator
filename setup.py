@@ -5,7 +5,7 @@
 from os import path
 from io import open
 from glob import glob
-from setuptools import setup
+from setuptools import setup, find_packages
 
 top_dir = path.dirname(path.abspath(__file__))
 with open(glob(path.join(top_dir, "src/*/__about__.py"))[0],
@@ -24,4 +24,7 @@ setup(
     maintainer       = about.__maintainer__,
     maintainer_email = about.__email__,
     license          = about.__license__,
+
+    include_package_data = True,
+    zip_safe = False
 )

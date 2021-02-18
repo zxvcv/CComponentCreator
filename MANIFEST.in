@@ -3,6 +3,13 @@
 # See attached LICENSE file
 
 include README.rst
+include src/CComponentCreator/CMakeLists_main.txt
+include src/CComponentCreator/CMakeLists_test.txt
+include src/CComponentCreator/config.json
+include src/CComponentCreator/f_comment_template.h
+include src/CComponentCreator/f_param_template.h
+include src/CComponentCreator/template.c
+include src/CComponentCreator/template.h
 
 graft src
 

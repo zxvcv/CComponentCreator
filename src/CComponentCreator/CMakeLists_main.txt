@@ -1,0 +1,29 @@
+# [[LICENSE_INFORMATIONS_CMAKE]]
+
+cmake_minimum_required(VERSION 3.16.3)
+
+#####################################   LOCAL VARIABLES   #########################################
+set(LOCAL_TARGET [[COMPONENT_NAME]])
+set(COMPONENTS_DIR ..)
+set(SOURCE_DIR source)
+set(HEADER_DIR header)
+
+
+
+#####################################   COMPILATION OPTIONS   #####################################
+add_library(${LOCAL_TARGET}
+    #TODO:(...)
+)
+
+target_include_directories(${LOCAL_TARGET} INTERFACE
+    ${HEADER_DIR}
+)
+
+add_dependencies(${LOCAL_TARGET}
+    #TODO:(...)
+)
+
+
+
+#####################################   COMPILATION OPTIONS   #####################################
+include(../../cmake/compile_options.cmake)
