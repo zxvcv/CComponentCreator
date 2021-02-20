@@ -15,7 +15,7 @@ add_library(${LOCAL_TARGET}
     #TODO:(...)
 )
 
-target_include_directories(${LOCAL_TARGET} INTERFACE
+target_include_directories(${LOCAL_TARGET} PUBLIC
     ${HEADER_DIR}
 )
 
@@ -26,4 +26,5 @@ add_dependencies(${LOCAL_TARGET}
 
 
 #####################################   COMPILATION OPTIONS   #####################################
+include(../../cmake/compile_definitions.cmake)
 include(../../cmake/compile_options.cmake)
