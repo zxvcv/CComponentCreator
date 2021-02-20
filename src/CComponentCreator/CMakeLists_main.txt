@@ -18,14 +18,14 @@ include(${MAIN_APP_DIR}/cmake/f_compile_options.cmake)
 
 #####################################   CREATE TARGET   ###########################################
 add_library(${LOCAL_TARGET}
-    #TODO:(...)
+    ${SOURCE_DIR}/[[COMPONENT_NAME]].c
 )
 
 target_include_directories(${LOCAL_TARGET} PUBLIC
     ${HEADER_DIR}
 )
 
-add_dependencies(${LOCAL_TARGET}
+target_link_libraries(${LOCAL_TARGET}
     #TODO:(...)
 )
 

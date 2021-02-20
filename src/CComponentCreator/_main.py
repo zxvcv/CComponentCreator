@@ -88,22 +88,22 @@ class Worker():
         return ["/*" + line.split('\n')[0] + "*/\n"]
 
     marker_function = [
-        {"marker":"COMPONENT_NAME",                   "function":_marker_component_name                                 },
-        {"marker":"LICENSE_INFORMATIONS",             "function":partial(_marker_component, prefix = " * ")             },
-        {"marker":"COMPONENT_DESCRIPTION",            "function":partial(_marker_component, prefix = " *      ")        },
-        {"marker":"COMPONENT_COMMENTS",               "function":partial(_marker_component, prefix = " *      ")        },
-        {"marker":"COMPONENT_EXAMPLE",                "function":partial(_marker_component, prefix = " *      ")        },
-        {"marker":"COMPONENT_DEFINE_NAME",            "function":_marker_component_define_name                          },
-        {"marker":"COMPONENT_INCLUDES_H",             "function":partial(_marker_component, prefix = "")                },
-        {"marker":"COMPONENT_DEFINES_H",              "function":partial(_marker_component, prefix = "")                },
-        {"marker":"COMPONENT_EXTERNS_H",              "function":partial(_marker_component, prefix = "")                },
-        {"marker":"COMPONENT_DATA_TYPES_H",           "function":partial(_marker_component, prefix = "")                },
-        {"marker":"COMPONENT_INCLUDES_C",             "function":partial(_marker_component, prefix = "")                },
-        {"marker":"COMPONENT_DEFINES_C",              "function":partial(_marker_component, prefix = "")                },
-        {"marker":"COMPONENT_PRIVATE_DEFINITIONS",    "function":_marker_skip                                           },
-        {"marker":"COMPONENT_PUBLIC_DEFINITIONS",     "function":_marker_component_public_definitions                   },
-        {"marker":"COMPONENT_PUBLIC_DECLARATIONS",    "function":_marker_skip                                           },
-        {"marker":"LICENSE_INFORMATIONS_CMAKE", "function":partial(_marker_component, prefix = "# ", leave_marker=False)}
+        {"marker":"COMPONENT_NAME",                 "function":_marker_component_name                             },
+        {"marker":"LICENSE_INFORMATIONS",           "function":partial(_marker_component, prefix = " * ", leave_marker=False)},
+        {"marker":"COMPONENT_DESCRIPTION",          "function":partial(_marker_component, prefix = " *      ")    },
+        {"marker":"COMPONENT_COMMENTS",             "function":partial(_marker_component, prefix = " *      ")    },
+        {"marker":"COMPONENT_EXAMPLE",              "function":partial(_marker_component, prefix = " *      ")    },
+        {"marker":"COMPONENT_DEFINE_NAME",          "function":_marker_component_define_name                      },
+        {"marker":"COMPONENT_INCLUDES_H",           "function":partial(_marker_component, prefix = "")            },
+        {"marker":"COMPONENT_DEFINES_H",            "function":partial(_marker_component, prefix = "")            },
+        {"marker":"COMPONENT_EXTERNS_H",            "function":partial(_marker_component, prefix = "")            },
+        {"marker":"COMPONENT_DATA_TYPES_H",         "function":partial(_marker_component, prefix = "")            },
+        {"marker":"COMPONENT_INCLUDES_C",           "function":partial(_marker_component, prefix = "")            },
+        {"marker":"COMPONENT_DEFINES_C",            "function":partial(_marker_component, prefix = "")            },
+        {"marker":"COMPONENT_PRIVATE_DEFINITIONS",  "function":_marker_skip                                       },
+        {"marker":"COMPONENT_PUBLIC_DEFINITIONS",   "function":_marker_component_public_definitions               },
+        {"marker":"COMPONENT_PUBLIC_DECLARATIONS",  "function":_marker_skip                                       },
+        {"marker":"LICENSE_INFORMATIONS_CMAKE",     "function":partial(_marker_component, prefix = "# ", leave_marker=False)}
     ]
 
 
